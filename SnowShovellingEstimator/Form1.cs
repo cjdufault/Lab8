@@ -36,5 +36,36 @@ namespace SnowShovellingEstimator
                 lblSpecialRequests.Text = specialRequests;
             }
         }
+
+        private void btnGetEstimate_Click(object sender, EventArgs e)
+        {
+            string name = txtName.Text;
+            string address = txtAddress.Text;
+            DateTime date = dteAppointmentDate.Value;
+
+            if (String.IsNullOrEmpty(name) || String.IsNullOrEmpty(address) || date == null)
+            {
+                MessageBox.Show("All fields must be filled in", "Error");
+                return;
+            }
+
+            double price;
+            if (rdoSingle.Checked)
+            {
+                price = 20;
+            }
+            else
+            {
+                price = 30;
+            }
+
+            // $5 premium for same-day service
+            if (date.Date == DateTime.Today)
+            {
+                price += 5;
+            }
+
+            txtEstPrice.Text = $"{price:c}";
+        }
     }
 }

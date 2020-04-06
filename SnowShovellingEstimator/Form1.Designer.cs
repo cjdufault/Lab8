@@ -70,14 +70,14 @@
             this.txtName.Location = new System.Drawing.Point(294, 81);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(572, 31);
-            this.txtName.TabIndex = 2;
+            this.txtName.TabIndex = 0;
             // 
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(294, 166);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(572, 31);
-            this.txtAddress.TabIndex = 3;
+            this.txtAddress.TabIndex = 1;
             // 
             // label3
             // 
@@ -93,7 +93,7 @@
             this.dteAppointmentDate.Location = new System.Drawing.Point(294, 254);
             this.dteAppointmentDate.Name = "dteAppointmentDate";
             this.dteAppointmentDate.Size = new System.Drawing.Size(572, 31);
-            this.dteAppointmentDate.TabIndex = 5;
+            this.dteAppointmentDate.TabIndex = 2;
             // 
             // groupBox1
             // 
@@ -102,7 +102,7 @@
             this.groupBox1.Location = new System.Drawing.Point(96, 339);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(339, 164);
-            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Type of Sidewalk";
             // 
@@ -151,7 +151,7 @@
             this.btnSpecialRequests.Location = new System.Drawing.Point(592, 524);
             this.btnSpecialRequests.Name = "btnSpecialRequests";
             this.btnSpecialRequests.Size = new System.Drawing.Size(256, 43);
-            this.btnSpecialRequests.TabIndex = 8;
+            this.btnSpecialRequests.TabIndex = 4;
             this.btnSpecialRequests.Text = "Add Special Requests";
             this.btnSpecialRequests.UseVisualStyleBackColor = true;
             this.btnSpecialRequests.Click += new System.EventHandler(this.btnSpecialRequests_Click);
@@ -161,9 +161,10 @@
             this.btnGetEstimate.Location = new System.Drawing.Point(112, 620);
             this.btnGetEstimate.Name = "btnGetEstimate";
             this.btnGetEstimate.Size = new System.Drawing.Size(162, 47);
-            this.btnGetEstimate.TabIndex = 9;
+            this.btnGetEstimate.TabIndex = 5;
             this.btnGetEstimate.Text = "Get Estimate";
             this.btnGetEstimate.UseVisualStyleBackColor = true;
+            this.btnGetEstimate.Click += new System.EventHandler(this.btnGetEstimate_Click);
             // 
             // label5
             // 
