@@ -80,10 +80,11 @@ namespace StudentEnquiry
             }
 
             StringBuilder summaryBuilder = new StringBuilder();
+            int selectedCount = lstDegrees.SelectedItems.Count;
 
             summaryBuilder.Append("Summary\n\nDepartment: ");
             summaryBuilder.Append(cbxDepartment.Text);
-            summaryBuilder.Append("\n\nPrograms:\n");
+            summaryBuilder.Append($"\n\nPrograms: {selectedCount} selected\n");
 
             foreach (string degree in lstDegrees.SelectedItems)
             {
