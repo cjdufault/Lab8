@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowShovellingEstimator", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoQuizThree", "GeoQuizTwo\GeoQuizThree.csproj", "{3A31085B-A861-4245-8359-3F929E04BAF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentApp", "PaymentApp\PaymentApp.csproj", "{5E2F508C-A638-4B61-A144-2D6A4CF1E3FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3A31085B-A861-4245-8359-3F929E04BAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A31085B-A861-4245-8359-3F929E04BAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A31085B-A861-4245-8359-3F929E04BAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2F508C-A638-4B61-A144-2D6A4CF1E3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2F508C-A638-4B61-A144-2D6A4CF1E3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2F508C-A638-4B61-A144-2D6A4CF1E3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2F508C-A638-4B61-A144-2D6A4CF1E3FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
